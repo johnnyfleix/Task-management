@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    background-color: rgba(20, 255, 103, 0.541);
+  }
+  
+  header {
+    padding: 20px;
+    background-color: #f0f0f0;
+    background-color: rgba(200, 255, 143, 0.541);
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #login-button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #task-list {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  #new-task {
+    padding: 20px;
+    border: 1px solid #ccc;
+    color: brown;
+  }
+  
+  form {
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea, select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  button {
+    padding: 5px 10px;
+  cursor: pointer;
+  }
+  #new-task button:hover {
+  background-color: aquamarine;
+  color: #fff;
+  transition: 1s;
+  box-shadow: 0 5px 0px 0 rgba(0, 0, 0, 0.24), 0 0px, 7px 0 rgba(0, 0, 0, 0.19)
+}
